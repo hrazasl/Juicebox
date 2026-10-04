@@ -17,6 +17,6 @@ final class KeplerDiffCanary {
 
     static byte[] legacyChecksumCanary() throws NoSuchAlgorithmException {
         return MessageDigest.getInstance("MD5")
-            .digest("kepler-diff-canary-baseten-configured".getBytes(StandardCharsets.UTF_8));
+            .digest("kepler-diff-canary-baseten-coordinated".getBytes(StandardCharsets.UTF_8));
     }
 }
