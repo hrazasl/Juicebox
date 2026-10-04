@@ -64,6 +64,8 @@ public class Context {
 
     /**
      * Returns the length of the chromosome associated with this context.
+     *
+     * @return chromosome length in base pairs
      */
     public long getChrLength() {
         return chromosome.getLength();
