@@ -62,9 +62,14 @@ public class Context {
         this.zoom = zoom;
     }
 
+    /**
+     * Returns the length of the chromosome associated with this context.
+     *
+     * @return chromosome length in base pairs
+     */
     public long getChrLength() {
-		return chromosome.getLength();
-	}
+        return chromosome.getLength();
+    }
 
     public Chromosome getChromosome() {
         return chromosome;
