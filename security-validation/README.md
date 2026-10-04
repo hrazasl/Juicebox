@@ -5,3 +5,5 @@ Metadata-only scanner fixture. These package coordinates intentionally match pub
 Do not install this fixture. No package payloads, executable code, scripts, or registry download URLs are included. This directory has no package.json and is not part of the application build.
 
 Expected: 3 malicious-package findings, no malicious-package finding for lodash. This PR is for validation only and should not be merged.
+
+Validation rerun: verify branch-scoped finding identities and base-versus-head dependency comparison.
