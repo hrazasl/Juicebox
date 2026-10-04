@@ -7,3 +7,5 @@ Do not install this fixture. No package payloads, executable code, scripts, or r
 Expected: 3 malicious-package findings, no malicious-package finding for lodash. This PR is for validation only and should not be merged.
 
 Validation rerun: verify branch-scoped finding identities and base-versus-head dependency comparison.
+
+Recovery validation: verify failed-ingestion cleanup. Lodash is a malware-negative control, not a vulnerability-free package.
